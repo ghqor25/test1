@@ -4,8 +4,5 @@
   "main": "index.js",
   "repository": "https://github.com/ghqor25/test1.git",
   "author": "songbaek <ghqor25@naver.com>",
-  "license": "MIT",
-  "scripts": {
-	  "build": "yarn run --if-present build"
-  }
+  "license": "MIT"
 }
