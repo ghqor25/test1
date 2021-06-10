@@ -1,8 +1,11 @@
 {
   "name": "test1",
-  "version": "1.0.0",
+   "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/ghqor25/test1.git",
   "author": "songbaek <ghqor25@naver.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+	  "build": "yarn workspaces run --if-present build"
+  }
 }
