@@ -6,6 +6,6 @@
   "author": "songbaek <ghqor25@naver.com>",
   "license": "MIT",
   "scripts": {
-	  "build": "yarn workspaces run --if-present build"
+	  "build": "yarn run --if-present build"
   }
 }
