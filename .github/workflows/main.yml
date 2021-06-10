@@ -16,7 +16,7 @@ jobs:
       - name: yarn install and build
         run: |
           yarn install --frozen-lockfile
-          yarn run build --if-present
+          yarn run build
         env:
           CI: true
       - name: zip
